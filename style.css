@@ -177,6 +177,10 @@ p{
     position: absolute;
     bottom:20px;
     right: 15px;
-
- 
+}
+#product1 .pro-container{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    flex-wrap: wrap;
 }
