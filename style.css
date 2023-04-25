@@ -132,7 +132,7 @@ h1,h2,h3,h4,button{
      border:1px solid rgb(180, 177, 177);
      border-radius: 25px;
      cursor: pointer;
-     box-shadow: 20px 20px 30px rgb(204, 202, 202);
+     box-shadow: 20px 20px 30px rgb(219, 217, 217);
      margin: 20px 0;
      position:relative;
 }
@@ -190,8 +190,16 @@ p{
 .Specification {
     position: relative;
   }
- 
-  
+ .section-m1{
+    margin: 40px 0;
+ }
+  #Banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   
   
   
