@@ -117,12 +117,11 @@ h1,h2,h3,h4,button{
     width:20%;
 } */
 .star{
-    color:indianred
+    color:rgb(237, 76, 17);
+    font-size: 15px;
 }
-.fas .fa-shopping-cart{
-    color:aliceblue;
 
-}
+
 #product1{
     text-align: center;
 }
@@ -135,6 +134,7 @@ h1,h2,h3,h4,button{
      cursor: pointer;
      box-shadow: 20px 20px 30px rgb(204, 202, 202);
      margin: 20px 0;
+     position:relative;
 }
 p{
     font-size: 30px;
@@ -145,4 +145,38 @@ p{
 }
 #product1 .pro:hover{
     box-shadow: 20px 20px 30px rgb(143, 142, 142) ;
+}
+#product1 .pro .specification{
+    text-align: start;
+    padding:10px 0;
+}
+#product1 .pro .specification span{
+    color:rgb(45, 40, 40);
+    font-size: 18px;
+}
+#product1 .pro .specification h5{
+    padding:5px;
+    color:rgb(16, 15, 15);
+    font-size: 20px;
+}
+#product1 .pro .specification h3{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(9, 108, 105);
+}
+#product1 .pro .shopping{
+    width:80px;
+    height:70px;
+    line-height: 50px;
+    border-block: 60px;
+    background-color:beige;
+    font-weight: 600;
+    color:rgb(9, 109, 105);
+    border:1px solid rgb(169, 167, 167);
+    position: absolute;
+    bottom:20px;
+    right: 15px;
+
+ 
 }
