@@ -184,3 +184,15 @@ p{
     padding-top: 15px;
     flex-wrap: wrap;
 }
+.Specification .Original-price{
+    text-decoration: line-through;
+}
+.Specification {
+    position: relative;
+  }
+ 
+  
+  
+  
+  
+  
