@@ -10,10 +10,11 @@
     position:sticky;
     top:0;
     left:0;
+    border-radius: 10px;
     
 }
 .logo{
-    height:80%;
+    height:100%;
     width:100%;
     position:top-left;
 }
@@ -38,28 +39,83 @@
     color:floralwhite;
 }
 #Offer{
-    background-image:url("image/offer2.jpg");
+    background-image:url("image/excited7.jpg");
     height:100%;
     width:100%;
-    background-position: top 25% left 70%;
-    background-size:contain;
+    background-position: top 10% left 10%;
+    background-size:cover;
     padding-top: 0 50px;
     display:block;
     flex-direction: column;
     align-items:start;
+    border:1px solid mediumturquoise ;
+    border-radius: 10px;
+   
 }
 h2,h1{
-    font-size:35px;
+    font-size:40px;
     font-weight: 700;
 
 }
+h1,button{
+    color:darkcyan;
+}
 
-h3,h4{
-    font-size:20px;
+h3,h4,button{
+    font-size:30px;
     font-weight:700 ;
 }
-h1,h2,h3,h4{
-    font-style:oblique;
+h1,h2,h3,h4,button{
+    font-style:normal;
     font-family: 'Courier New', Courier, monospace;
+  
    
+}
+
+.section-css{
+    padding: 40px 70px;
+}
+#Features .fe-box{
+    width: 30%;
+    text-align: center;
+    padding: 5px 5px;
+    box-shadow:10px 20px 34px rgba(rgb(16, 46, 45));
+    border: 1px solid black ;
+    width:10%;
+    height:5% ;
+    border-radius:10px ;
+    margin:5px 0;
+
+}
+#Features .fe-box:hover{
+    box-shadow:10px 10px 54px rgba(rgb(87, 94, 94));
+}
+#Features .fe-box h5{
+    font-size:15px;
+    padding:1px 1px 1px 1px;
+    line-height: 2;
+    /* border-radius: 20px; */
+    color:black;
+    background-color:mediumturquoise;
+   
+}
+#Features{
+    background-color:lightgray;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius:10px ;
+}
+#Features .fe-box img{
+    width:50%;
+    margin-bottom: 10px;
+}
+
+/* .fe-box img{
+    height:30%;
+    width:20%;
+} */
+.fas fa-shopping-cart{
+    color:black;
 }
