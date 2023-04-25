@@ -212,9 +212,7 @@ p{
   #Banner h2 span{
     color:rgb(225, 55, 89)
   }
- .icon{
-    size: 60px;
- }
+
   
   footer{
      display: flex;
@@ -222,4 +220,24 @@ p{
      justify-content: space-between;
   }
   
-  
+   
+  footer .col{
+    display: flex;
+    flex-direction:column ;
+   align-items:flex-start;
+   margin-bottom: 5px;
+    
+ }
+ footer p{
+    font-size: 18px;
+    margin:0 0 8px 0;
+
+ }
+ .col h4{
+    font-size:18px ;
+    margin:0 0 8px 0;
+ }
+ footer .folow i{
+    padding-right: 4px;
+    cursor:pointer;
+ }
