@@ -38,6 +38,22 @@
   width: auto;
   transition: transform 0.3s ease;
 }
+#navbar li i{
+  width:70px;
+  height:60px;
+  line-height: 10px;
+  background-color:rgb(250, 243, 243);
+  font-weight: 600;
+  color:rgb(88, 87, 87);
+  border:1px solid rgb(169, 167, 167);
+  position: relative;
+  bottom:5px;
+  left:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 #navbar li img:hover {
     transform: scale(1.1); 
@@ -160,7 +176,7 @@ p{
     font-size: 30px;
 }
 #product1 .pro img{
-    width:100%;
+    width:60%;
     border-radius: 25px;
 }
 #product1 .pro:hover{
@@ -170,10 +186,7 @@ p{
     text-align: start;
     padding:5px 0;
 }
-/* #product1 .pro .specification span{
-    color:rgb(45, 40, 40);
-    font-size: 18px;
-} */
+
 #product1 .pro .specification h5{
     padding:5px;
     color:rgb(16, 15, 15);
@@ -185,7 +198,7 @@ p{
     font-weight: 700;
     color:rgb(9, 108, 105);
 }
-.Specifications .list i{
+.pro-container .pro #cartIcon{
     width:80px;
     height:70px;
     line-height: 10px;
@@ -200,7 +213,6 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 #product1 .pro-container{
     display:flex;
@@ -212,6 +224,9 @@ p{
 .Specification .Original-price{
     text-decoration: line-through;
     margin-top: 3px;
+}
+.pro-container .pro{
+  height: 650px;
 }
 .Specification .Original-price{
     margin-top: 3px;

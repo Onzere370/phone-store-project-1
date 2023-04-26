@@ -1,0 +1,60 @@
+{
+    "Product": [
+      {
+        "id": 1,
+        "brand": "oppo A17",
+        "storage": "32GB + 3GB",
+        "Original price": 17999.00,
+        "Discounted price": 16999.00,
+        "Remaining stock":"21Pcs"
+      },
+      {
+         "id": 2,
+          "brand": "oppo A77",
+          "storage": "128GB + 6GB",
+          "Original price": 23500.00,
+          "Discounted price": 22500.00,
+          "Remaining stock":"20Pcs"
+        },
+         {
+           "id": 3,
+              "brand": "Reno 8",
+              "storage": "256GB + 6GB",
+              "Original price": 29500.00,
+              "Discounted price": 27500.00,
+              "Remaining stock":"10Pcs"
+            },
+        {
+         "id": 4,
+         "brand": "Samsung A13",
+         "storage": "64GB + 3GB",
+          "Original price": 19500.00,
+          "Discounted price": 18000.00,
+          "Remaining stock":"20Pcs"
+            },
+         {
+            "id": 1,
+              "brand": "Samsung A14",
+              "storage": "128GB + 3GB",
+              "Original price": 22999.00,
+              "Discounted price": 21500.00,
+              "Remaining stock":"15Pcs"
+             },
+         {
+             "id": 1,
+             "brand": "Samsung A23",
+             "storage": "128GB + 4GB",
+             "Original price": 24500.00,
+             "Discounted price": 22500.00,
+             "Remaining stock":"5Pcs"
+            }
+        ]
+ }
+
+
+
+
+
+
+
+
