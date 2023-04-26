@@ -38,8 +38,7 @@ Font Awesome (https://fontawesome.com/): Used for the icons in the website.
 Images: Images used on the website are for demonstration purposes only and may be subject to copyright. Please replace with your own images before deploying the website in a production environment.
 Note:
 
-This is a simple e-commerce website template and does not include real payment processing or other advanced features. Additional development may be required to make it fully functional for a real-world e-commerce application.
-Always ensure to follow best practices for security, data protection, and legal requirements when developing an e-commerce website for production use.
+This is a simple e-commerce website template and does not include real payment processing or other advanced features. 
 
 
 
