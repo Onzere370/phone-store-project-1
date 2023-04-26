@@ -309,13 +309,17 @@ p{
   }
   
   .pro h3 {
-    font-size: 16px; /* Adjust the font size value as needed */
+    font-size: 13px; /* Adjust the font size value as needed */
   }
   
   .pro ul {
     font-size: 12px; /* Adjust the font size value as needed */
     padding: auto;
   }
-  .pro ul li{
-    padding-right: 0;
+  .Specifications h3 {
+    margin-bottom: 5px; /* Adjust the margin-bottom value as needed */
+  }
+  
+  .Specifications ul {
+    margin-top: 0; /* Set margin-top to 0 to remove space */
   }
