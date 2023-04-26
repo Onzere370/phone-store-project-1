@@ -50,17 +50,10 @@ fetch('http://localhost:3000/Product')
     });
   });
 
-// document.getElementById("cartIcon").addEventListener("click", function() {
-//     alert("Add this product to cart? ");
-// });
 
-function showAlertOnAllCartIcons() {
-    const cartIcons = document.querySelectorAll(".fas.fa-shopping-cart");
-    const remainingProducts = 5; // Change this to the actual number of products remaining
-  
-    cartIcons.forEach((cartIcon) => {
-      cartIcon.addEventListener("click", () => {
-        alert(`There are ${remainingProducts} products remaining.`);
-      });
-    });
-  }
+const cartIcons = document.querySelectorAll(".fa-shopping-cart");
+cartIcons.forEach(function(icon) {
+  icon.addEventListener("click", function() {
+    alert("Product added to cart");
+  });
+});
