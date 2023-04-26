@@ -13,11 +13,13 @@
     /* border-radius: 10px; */
     
 }
-.logo{
+.logo {
     height:100%;
     width:100%;
     position:top-left;
+
 }
+
 #navbar{
     display:flex;
     align-items: center;
@@ -27,17 +29,28 @@
 #navbar li{
     list-style-type:none;
     padding:0 20px;
+
 }
-#navbar li a{
-    text-decoration:none;
-    font-size:15px;
-    font-weight:600 ;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
+
+#navbar li img,
+#navbar li i {
+  height: 40px; 
+  width: auto;
+  transition: transform 0.3s ease;
 }
-#navbar li a:hover{
-    color:floralwhite;
-}
+
+#navbar li img:hover {
+    transform: scale(1.1); 
+    box-shadow:10px 10px 54px rgb(155, 152, 152);
+    cursor:pointer;
+    
+  }
+  .fas.fa-shopping-cart:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+  }
+
 #Offer{
     background-image:url("image/excited7.jpg");
     height:100%;
@@ -73,7 +86,8 @@ h1,h2,h3,h4,button{
 }
 
 .section-css{
-    padding: 40px 70px;
+    padding: 5px 10px;
+   
 }
 #Features .fe-box{
     width: 30%;
@@ -97,19 +111,22 @@ h1,h2,h3,h4,button{
     /* border-radius: 20px; */
     color:black;
     background-color:mediumturquoise;
+    border-radius: 5px;
    
 }
 #Features{
-    background-color:lightgray;
+    /* background-image: linear-gradient(to bottom right, #c2c2c2, rgb(122, 228, 225)); */
+    background-color:rgb(233, 232, 232);
     display:flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-radius:10px ;
+    /* border-radius:10px ; */
+    border:1px solid mediumturquoise ;
 }
 #Features .fe-box img{
     width:50%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /* .fe-box img{
@@ -117,8 +134,11 @@ h1,h2,h3,h4,button{
     width:20%;
 } */
 .star{
-    color:rgb(237, 76, 17);
+    color:rgb(142, 135, 135);
     font-size: 15px;
+    margin-top: 10px;
+    
+  
 }
 
 
@@ -148,12 +168,12 @@ p{
 }
 #product1 .pro .specification{
     text-align: start;
-    padding:10px 0;
+    padding:5px 0;
 }
-#product1 .pro .specification span{
+/* #product1 .pro .specification span{
     color:rgb(45, 40, 40);
     font-size: 18px;
-}
+} */
 #product1 .pro .specification h5{
     padding:5px;
     color:rgb(16, 15, 15);
@@ -165,17 +185,17 @@ p{
     font-weight: 700;
     color:rgb(9, 108, 105);
 }
-#product1 .pro .shopping{
+.Specifications .list i{
     width:80px;
     height:70px;
-    line-height: 50px;
+    line-height: 10px;
     border-block: 60px;
     background-color:beige;
     font-weight: 600;
     color:rgb(9, 109, 105);
     border:1px solid rgb(169, 167, 167);
-    position: absolute;
-    bottom:20px;
+    position: relative;
+    bottom:10px;
     right: 15px;
 }
 #product1 .pro-container{
@@ -183,13 +203,23 @@ p{
     justify-content: space-between;
     padding-top: 15px;
     flex-wrap: wrap;
+   
 }
 .Specification .Original-price{
     text-decoration: line-through;
+    margin-top: 3px;
 }
-.Specification {
-    position: relative;
+.Specification .Original-price{
+    margin-top: 3px;
+}
+
+.Specification h3 h5{
+    line-height: 1.5px;
   }
+  .Specification h4{
+    line-height: 1.5px;
+  }
+  
  .section-m1{
     margin: 40px 0;
  }
@@ -199,7 +229,8 @@ p{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url("image/banner.jpg") ;
+    background-image: linear-gradient(to bottom right, #a9a8a9, mediumturquoise);
+    /* background-image:url("image/banner1.png") ; */
     width:100%;
     height:45vh;
     background-size: cover;
@@ -229,7 +260,7 @@ p{
     
  }
  footer p{
-    font-size: 18px;
+    font-size: 23px;
     cursor:pointer;
     margin:0 0 8px 0;
 
@@ -242,8 +273,49 @@ p{
  footer .follow i{
     padding-right: 4px;
     cursor:pointer;
+
  }
  footer .follow i:hover,
  footer .col h4:hover{
-    color:cornflowerblue;
+    color:rgb(89, 138, 230);
  }
+ .list {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* .list ul {
+    list-style-type:decimal;
+     ;
+    padding-left: 20px;
+  } */
+  
+  .list li {
+    margin-bottom: 3px;
+    text-align:justify ;
+  }
+  .pro {
+    width: 200px; /* Adjust the width value as needed */
+    height:800; /* Adjust the height value as needed */
+  }
+  
+  .pro img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain aspect ratio of the image */
+  }
+  
+  .pro h5 {
+    font-size: 14px; /* Adjust the font size value as needed */
+  }
+  
+  .pro h3 {
+    font-size: 16px; /* Adjust the font size value as needed */
+  }
+  
+  .pro ul {
+    font-size: 12px; /* Adjust the font size value as needed */
+    padding: auto;
+  }
+  .pro ul li{
+    padding-right: 0;
+  }
