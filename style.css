@@ -264,7 +264,7 @@ p{
     
  }
  footer p{
-    font-size: 23px;
+    font-size: 18px;
     cursor:pointer;
     margin:0 0 8px 0;
 
@@ -327,6 +327,37 @@ p{
     font-size: 24px; /* Change this value to increase or decrease the size */
   }
   #comments h2{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
+  }
+  
+
+  #comment-form {
+    max-width: 300px;
+    padding: 20px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+
+  #comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #comment-form button {
+    width: 100%;
+    padding: 10px;
+    background: #7ec6af;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  #comment-list {
+    margin-top: 20px;
+  }
+
+  #comment-list p {
+    margin-bottom: 10px;
   }

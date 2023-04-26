@@ -15,15 +15,23 @@
     star.addEventListener('click', toggleStarColor);
   });
 
-  $("#comment-form").submit(function(event) {
-    event.preventDefault(); // Prevent form from submitting
+  document.addEventListener('DOMContentLoaded', function() {
 
-    // Get the comment input value
-    let comment = $("#comment-input").val();
+    const commentForm = document.getElementById('comment-form');
+    const commentList = document.getElementById('comment-list');
 
-    // Append the comment to the comment list
-    $("#comment-list").append("<p>" + comment + "</p>");
+    
+    commentForm.addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      
+      const commentInput = document.getElementById('comment-input');
+      const comment = commentInput.value;
 
-    // Clear the comment input
-    $("#comment-input").val("");
+      
+      const commentElement = document.createElement('p');
+      commentElement.textContent = comment;
+      commentList.appendChild(commentElement);
+
+      commentInput.value = '';
+    });
   });
