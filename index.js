@@ -1,40 +1,29 @@
-// const stars = document.querySelectorAll(".star i");
 
-//     // Add event listener to each star
-//     stars.forEach(star => {
-//         star.addEventListener("click", () => {
-//             // Change color of clicked star
-//             star.style.color = "yellow";
-//         });
-//     });
-    const stars = document.querySelectorAll('.fas fa-star');
-         for(const star of stars) {
-            star.addEventListener('click', () => {
-                // Change color of clicked star to red
-                star.style.color = 'red';
-            });
+  function toggleStarColor(event) {
+    const currentColor = event.target.style.color;
+  
+    if (currentColor === 'orange') {
+      event.target.style.color = ''; 
+    } else {
+      event.target.style.color = 'orange';
+    }
+  }
+  
+  const stars = document.querySelectorAll('.star i');
+  
+  stars.forEach(star => {
+    star.addEventListener('click', toggleStarColor);
+  });
 
-         }
-    // Add event listener to each star icon
-    // stars.forEach(star => {
-    //     star.addEventListener('click', () => {
-    //         // Change color of clicked star to red
-    //         star.style.color = 'red';
-    //     });
-    // });
-    // function createFilmList(films) {
-    //     const filmList = document.querySelector('.film.item');
-    //     filmList.textContent = '';
-    //     for (const film of films) {
-    //       const li = document.createElement("li");
-    //       li.innerText = film.title;
-    //       li.className = 'film item';
-    //       li.addEventListener('click', () => {
-    //       // Update the list of films displayed based on the clicked film
-    //         displayFilmDetails(film);
-    //       });
-    //       filmList.appendChild(li);
-    //     }
-    //   }
-    //    createFilmList(films);
-    
+  $("#comment-form").submit(function(event) {
+    event.preventDefault(); // Prevent form from submitting
+
+    // Get the comment input value
+    let comment = $("#comment-input").val();
+
+    // Append the comment to the comment list
+    $("#comment-list").append("<p>" + comment + "</p>");
+
+    // Clear the comment input
+    $("#comment-input").val("");
+  });

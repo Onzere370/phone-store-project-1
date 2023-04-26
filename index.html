@@ -7,6 +7,7 @@
     <title>E-Commerce</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="style.css"/>
+    
 </head>
 <body>
     <section id="header">
@@ -64,8 +65,8 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h3 class="Original-price"style="margin-bottom: 0px;">Ksh 17,999.00</h3>
-                    <h3 class="Discounted-price"style="margin-bottom: 0px;">Ksh 16,999.00</h3>
+                    <h3 class="Original-price">Ksh 17,999.00</h3>
+                    <h3 class="Discounted-price">Ksh 16,999.00</h3>
                 </div>
                 <!-- <h4>Specification</h4> -->
                 <!-- <a href="#"><i class="fas fa-shopping-cart"></i></a> -->
@@ -80,7 +81,7 @@
                             <li>5MP+2MP back camera</li>
                             <li>3750mAh battery capacity</li>
                         </ul>
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i  id="cartIcon" class="fas fa-shopping-cart"></i></a>
                     </div>
                 </h4>
             </div>
@@ -111,7 +112,7 @@
                             <li>10MP+5MP back camera</li>
                             <li>5000mAh battery capacity</li>
                         </ul>
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i  id="cartIcon" class="fas fa-shopping-cart"></i></a>
                     </div>
                 </h4>
             </div>
@@ -142,7 +143,7 @@
                             <li>20MP+5MP back camera</li>
                             <li>5000mAh battery capacity</li>
                         </ul>
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i  id="cartIcon" class="fas fa-shopping-cart"></i></a>
                     </div>
                 </h4>
             </div>
@@ -173,12 +174,12 @@
                             <li>10MP+5MP back camera</li>
                             <li>4000mAh battery capacity</li>
                         </ul>
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i  id="cartIcon" class="fas fa-shopping-cart"></i></a>
                     </div>
                 </h4>
             </div>
             <div class="pro">
-                <img src="image/A14.jpg" alt="">
+                <img src="image/a14.png" alt="">
                 <div class="Specification">
                     <!-- <span>Samsung</span> -->
                     <h5 style="margin-bottom: 1px;">Samsung A14</h5>
@@ -196,7 +197,7 @@
                 <h4 class="Specifications">
                     <div class="list"> 
                         <ul>
-                            <li>64GB ROM + 4GB RAM</li>
+                            <li>128GB ROM + 3GB RAM</li>
                             <li>Supports Wi-Fi</li>
                             <li>Dual sim card</li>
                             <li>Network 4G enabled</li>
@@ -204,7 +205,7 @@
                             <li>10MP+5MP back camera</li>
                             <li>4000mAh battery capacity</li>
                         </ul>
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i id="cartIcon" class="fas fa-shopping-cart"></i></a>
                     </div>
                 </h4>
             </div>
@@ -227,7 +228,7 @@
                 <h4 class="Specifications">
                     <div class="list"> 
                         <ul>
-                            <li>64GB ROM + 4GB RAM</li>
+                            <li>128GB ROM + 4GB RAM</li>
                             <li>Supports Wi-Fi</li>
                             <li>Dual sim card</li>
                             <li>Network 4G enabled</li>
@@ -235,7 +236,7 @@
                             <li>10MP+5MP back camera</li>
                             <li>5000mAh battery capacity</li>
                         </ul>
-                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        <a href="#"><i id="cartIcon" class="fas fa-shopping-cart"></i></a>
                     </div>
                 </h4>
             </div>
@@ -269,6 +270,15 @@
             <h4>Terms & Conditions</h4>
         </div>
     </footer>
-    
+    <section id="comments">
+        <h2>Comments</h2>
+        <div id="comment-list">
+        </div>
+        <form id="comment-form">
+          <textarea id="comment-input" placeholder="Add a comment..."></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    <script src="index.js"></script>
 </body>
 </html>
