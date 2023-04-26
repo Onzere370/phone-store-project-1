@@ -1,5 +1,5 @@
 Project Name:
-Online mobile shop
+Phone store
 
 Author Name:
 Cynthia Onzere
